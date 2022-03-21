@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Assisted Practice 4.4 JSP Action Tags">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <property name="context-root" value="Assisted_Practice_4.4_JSP_Action_Tags"/>
+        <property name="java-output-path" value="/Assisted Practice 4.4 JSP Action Tags/build/classes"/>
+    </wb-module>
+</project-modules>

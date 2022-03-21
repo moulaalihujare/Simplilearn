@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Assisted Practice 3.2 Hibernate Configuration Using XML in Eclipse">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <property name="context-root" value="Assisted_Practice_3.2_Hibernate_Configuration_Using_XML_in_Eclipse"/>
+        <property name="java-output-path" value="/Assisted Practice 3.2 Hibernate Configuration Using XML in Eclipse/build/classes"/>
+    </wb-module>
+</project-modules>
