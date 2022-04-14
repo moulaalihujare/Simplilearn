@@ -1,0 +1,25 @@
+<div class="container p-5">
+  <div class="row">
+    <div class="col-sm-8 offset-2">
+    <div *ngIf="currentQuiz<9"><!--need to make changes in this line w.r.t to '9'-->
+      <p class = " text-center " >{{currentQuiz +1}} of {{quizzes.length+1}}</p>
+      <h1>{{ quizzes[currentQuiz].question }}</h1>
+      <br>
+      <ul class="list-group" *ngFor="let quiz of quizzes[currentQuiz].answer">
+          <label>
+        <li class="list-group-item">
+          <input type="radio" name="options" (change)="onAnswer(quiz.correct)" [disabled]="answerSelected">
+          {{quiz.option}}
+        </li>
+      </label>
+      </ul>
+    </div>
+    <div *ngIf="currentQuiz > 8"><!--to make changes here w.r.t. '8' -->
+      <button class = "btn btn-success btn-block" (click)="showResult()">Show Result</button>
+ <div *ngIf="result">
+  Correct Answers: {{correctAnswers}} || Incorrect Answers : {{incorrectAnswers}}
+ </div>
+    </div>
+  </div>
+  </div>
+</div>
